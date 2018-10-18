@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  John R. Oliver
+         Date:    mm/dd/yyyy
+  -->
+  <meta charset=”UTF-8” />
+<!--  <link href=”../styleSheets/masterStyles.css”
+        rel=”stylesheet”
+        type=”text/css” />
+-->
+
+  <link href=”../styleSheets/mitaSignup.css”
+        rel=”stylesheet”
+        type=”text/css” />
+</head>
+
+<body>
+
+  <div id=”wrapper”>
+
+  <header>
+  </header>
+
+  <section>
+
+     <article>
+     </article>
+
+     <article>
+     </article>
+  </section>
+
+  <footer>
+  </footer>
+
+</div>
+
+</body>
+</html>
