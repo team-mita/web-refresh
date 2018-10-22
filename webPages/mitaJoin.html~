@@ -5,31 +5,51 @@
   <!--   Author:  John R. Oliver
          Date:    mm/dd/yyyy
   -->
-  <meta charset=”UTF-8” />
-<!--  <link href=”../styleSheets/masterStyles.css”
-        rel=”stylesheet”
-        type=”text/css” />
--->
+  <meta charset="UTF-8" />
 
-  <link href=”../styleSheets/mitaJoin.css”
-        rel=”stylesheet”
-        type=”text/css” />
+
+  <link href="../styleSheets/mitaJoin.css"
+        rel="stylesheet"
+        type="text/css" />
 </head>
 
 <body>
 
-  <div id=”wrapper”>
+  <div id="wrapper">
 
   <header>
   </header>
 
   <section>
 
-     <article>
-     </article>
+    <h2>Join</h2>
 
-     <article>
-     </article>
+    <h1>Are you a IT student looking for networking opportunities?</h1>
+
+    <article>
+
+      <h2><a href="">SIGN UP HERE!</a></h2>
+
+      <p>
+      MITA helps provide direction and networking opportunities in the IT field.
+      MITA can help you connect with the right people in the IT community!
+      MITA is always looking for new me +
+      mbers. Join today! We are especially
+      looking for students who are interested in taking on active roles.
+      Joining MITA  enables you to participate in many fun and exciting events
+      and opportunities.
+      </p>
+
+      <p>
+        <a href="">See more benefits of joining MITA!</a>
+      </p>
+
+      <aside id="mitaRecruting">
+        <a href=""><img alt="MITA is recruting, learn more." src="../images/MITAStarburst-1-1024x768.png"></a>
+      </aside>
+
+    </article>
+
   </section>
 
   <footer>

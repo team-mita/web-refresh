@@ -5,31 +5,30 @@
   <!--   Author:  John R. Oliver
          Date:    mm/dd/yyyy
   -->
-  <meta charset=”UTF-8” />
-<!--  <link href=”../styleSheets/masterStyles.css”
-        rel=”stylesheet”
-        type=”text/css” />
--->
+  <meta charset="UTF-8" />
 
-  <link href=”../styleSheets/mitaContact.css”
-        rel=”stylesheet”
-        type=”text/css” />
+  <link href="../styleSheets/mitaContact.css"
+        rel="stylesheet"
+        type="text/css" />
 </head>
 
 <body>
 
-  <div id=”wrapper”>
+  <div id="wrapper">
 
   <header>
   </header>
 
   <section>
-
+      <h2>Contact Us</h2>
      <article>
+      <p>We want to hear from you! Send us a message:
+        <a href="mailto:mita@madisoncollege.edu" >mita@madisoncollege.edu</a></p>
      </article>
+     <article>Members can conect on Slack @
+        <a href="https://team-mita.slack.com/" target="_blank">team-mita</a>.
+         (Login required)</article>
 
-     <article>
-     </article>
   </section>
 
   <footer>

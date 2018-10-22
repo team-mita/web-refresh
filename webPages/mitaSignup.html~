@@ -5,20 +5,17 @@
   <!--   Author:  John R. Oliver
          Date:    mm/dd/yyyy
   -->
-  <meta charset=”UTF-8” />
-<!--  <link href=”../styleSheets/masterStyles.css”
-        rel=”stylesheet”
-        type=”text/css” />
--->
+  <meta charset="UTF-8" />
 
-  <link href=”../styleSheets/mitaSignup.css”
-        rel=”stylesheet”
-        type=”text/css” />
+
+  <link href="../styleSheets/mitaSignup.css"
+        rel="stylesheet"
+        type="text/css" />
 </head>
 
 <body>
 
-  <div id=”wrapper”>
+  <div id="wrapper">
 
   <header>
   </header>
