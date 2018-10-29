@@ -1,0 +1,47 @@
+/*  External style sheet for MITA website
+
+    Author: Zeph Marcus
+    Date:   10/28/2018
+*/
+
+nav.site-navigation ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav.site-navigation li {
+	display: inline-block;
+	padding: 10px 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.1em;
+}
+
+nav.site-navigation a {
+	text-decoration: none;
+}
+
+nav.site-navigation a:hover {
+	color: grey;
+}
+
+section.main-content {
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+article#home-join img.alignright {
+	float: right;
+}
+
+article a#events-posting {
+	text-decoration: none;
+}
+
+footer section.double-column {
+	margin-right: 20vw;
+	margin-left: 30vw;
+}
+footer section.double-column div {
+	width: 50%;
+	float: left;
+}
