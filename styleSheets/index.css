@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+
+}
+
+.nav-item, .dropdown-menu{
+	list-style-type: none;
+    min-height: 4em;
+    background-color: cornsilk;
+    padding: .5em;
+    margin: auto;
+    width: 100%;
+    font-size: 1.2em;
+
+}
+
+.nav-item  a{
+
+    text-decoration: none;
+
+}
+
+.nav-list{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 4em;
+
+}
+
+.sub-content{
+	width: 70%;
+	margin:auto;
+}
+
+.footer{
+	padding: 3em;
+
+}
+#findus,#contactus{
+	display: inline-block;
+	vertical-align: top;
+	width:40%;
+	margin: auto;
+	padding-left: 2em;
+}
+ul.social-links-menu{
+	list-style-type: none;
+}
+.social-link{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 10em;
+	padding-left: 3em;
+}
+.social,
+.copyright{
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 3em;
+}
+/*
+
+.banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("images/headerIMG.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    margin: auto;
+    width: 25%;
+    height: 30%;
+    border: none;
+
+}
+.navmenu {
+
+}
+
+.navbar {
+	width: 100%;
+	background-color: #a6c4e2;
+}
+
+.menu-item, .sub-menu{
+	display: inline-block;
+	padding: 0 20px;
+	vertical-align: middle;
+}
+
+header a{
+	text-decoration: none;
+	font-size:1.4em;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.dropdown:after{
+	content: '\25BC';
+	margin-left: 5px;
+}
+nav ul ul {
+	display: none;
+  position: relative;
+  top: 2em;
+}
+nav ul li:hover > ul { display: inherit; }
+display: list-item;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+         height: 15%;
+    }
+} */
