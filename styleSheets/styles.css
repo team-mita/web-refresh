@@ -4,6 +4,16 @@
     Date:   10/28/2018
 */
 
+header {
+	background-image: url("../images/header/headerMitaLogo.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-origin: content-box;
+	background-attachment: fixed;
+	background-position: 50% 2em;
+	padding: 4em;
+}
+
 nav.site-navigation ul {
 	list-style: none;
 	text-align: center;
@@ -29,19 +39,36 @@ section.main-content {
 	margin-right: 35%;
 }
 
-article#home-join img.alignright {
+footer {
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul li {
+	display: inline;
+}
+
+div.footer_left_col {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div.footer_right_col {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div.footer_navigation {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+div.contact_column {
 	float: right;
 }
 
-article a#events-posting {
-	text-decoration: none;
-}
-
-footer section.double-column {
-	margin-right: 20vw;
-	margin-left: 30vw;
-}
-footer section.double-column div {
-	width: 50%;
-	float: left;
-}

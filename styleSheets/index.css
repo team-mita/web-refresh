@@ -1,0 +1,17 @@
+/*  External style sheet for MITA website
+
+    Author: Zeph Marcus
+    Date:   10/28/2018
+*/
+
+article#home-join img.align_right {
+	float: right;
+}
+
+article a#events-posting {
+	text-decoration: none;
+}
+
+img#contactFacebook {
+	max-width: 75px;
+}
