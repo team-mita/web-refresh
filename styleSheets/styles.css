@@ -6,6 +6,64 @@
 
 
 
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
 
+}
 
-/* Site-wide footer stylings */
+/* Header navigation section */
+.nav-item, .dropdown-menu{
+	list-style-type: none;
+    min-height: 4em;
+    background-color: cornsilk;
+    padding: .5em;
+    margin: auto;
+    width: 100%;
+    font-size: 1.2em;
+
+}
+
+.nav-item  a{
+    text-decoration: none;
+}
+
+.nav-list{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 4em;
+
+}
+
+.sub-content{
+	width: 70%;
+	margin:auto;
+}
+
+/* Footer section */
+.footer{
+	padding: 3em;
+
+}
+#findus, #contactus{
+	display: inline-block;
+	vertical-align: top;
+	width:40%;
+	margin: auto;
+	padding-left: 2em;
+}
+ul.social-links-menu{
+	list-style-type: none;
+}
+.social-link{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 10em;
+	padding-left: 3em;
+}
+.social, .copyright{
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 3em;
+}
