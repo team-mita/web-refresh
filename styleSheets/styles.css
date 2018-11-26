@@ -13,7 +13,25 @@ body {
 
 }
 
-/* Header navigation section */
+/* Header and navigation */
+
+header {
+	max-width: 70%;
+	margin: auto;
+}
+
+#site-header-wrap {
+	background-image: url(../images/mitaLogo/headerIMG.svg);
+	background-height: 800px;
+	backgroun-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar {
+	margin-left: auto;
+}
+
 .nav-item, .dropdown-menu{
 	list-style-type: none;
     min-height: 4em;
@@ -36,12 +54,28 @@ body {
 
 }
 
-.sub-content{
-	width: 70%;
-	margin:auto;
+/* Main content */
+.main-content {
+	max-width: 60%;
+	margin: auto;
+	
 }
 
-/* Footer section */
+.align-right {
+	float: right;
+}
+
+.content-clear {
+	clear: right;
+}
+
+.sub-content{
+	width: 70%;
+	margin: auto;
+}
+
+
+/* Jeanne Styles footer */
 .footer{
 	padding: 3em;
 
@@ -53,17 +87,43 @@ body {
 	margin: auto;
 	padding-left: 2em;
 }
-ul.social-links-menu{
+.social-links-menu{
 	list-style-type: none;
 }
 .social-link{
 	display: inline-block;
 	vertical-align: bottom;
-	width: 10em;
-	padding-left: 3em;
+	width: 5em;
+	padding-left: 1em;
 }
 .social, .copyright{
 	display: inline-block;
 	vertical-align: middle;
 	padding-bottom: 3em;
+}
+
+/* Zeph Styles footer */
+
+.siteFooter {
+	padding: 3em;
+}
+.footerContentWrap {
+	max-width: 50%;
+	margin: auto;
+}
+
+#findUs, #contactUs {
+	width: 40%;
+	display: inline-block;
+	margin: auto;
+	padding: 2em;
+	
+}
+
+#contactUs {
+	float: right;
+}
+
+.copyright {
+	float: right;
 }
