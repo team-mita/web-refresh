@@ -1,6 +1,6 @@
 /*  External style sheet for MITA website
 
-    Author: 
+    Author:
     Updated:  11/20/2018
 */
 
@@ -28,37 +28,11 @@ header {
 	background-size: cover;
 }
 
-.navbar {
-	margin-left: auto;
-}
-
-.nav-item, .dropdown-menu{
-	list-style-type: none;
-    min-height: 4em;
-    background-color: cornsilk;
-    padding: .5em;
-    margin: auto;
-    width: 100%;
-    font-size: 1.2em;
-
-}
-
-.nav-item  a{
-    text-decoration: none;
-}
-
-.nav-list{
-	display: inline-block;
-	vertical-align: top;
-	min-width: 4em;
-
-}
-
 /* Main content */
 .main-content {
 	max-width: 60%;
 	margin: auto;
-	
+
 }
 
 .align-right {
@@ -117,7 +91,7 @@ header {
 	display: inline-block;
 	margin: auto;
 	padding: 2em;
-	
+
 }
 
 #contactUs {
