@@ -2,6 +2,20 @@
 
     Author:
     Updated:  11/20/2018
+
+Notes on media queries (NAE):
+		I've added media queries to this stylesheet that lay out the
+		groundwork for Mobile-First design. All "base" styles (those not included in a media query)
+		should be geared toward mobile devices, with more specific styling for
+		larger devices "layering" on top of this using the media queries. This practice
+		continues to layer more specific/complex styles as the screen gets larger, with
+		the largest being the most specific.
+
+		Below is a good article describing mobile-first design:
+		https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00
+
+		And here is w3school's description of media breakpoints:
+		https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 */
 
 
@@ -100,4 +114,24 @@ header {
 
 .copyright {
 	float: right;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
