@@ -22,7 +22,7 @@ Notes on media queries (NAE):
 /* Header and navigation */
 
 header {
-	margin: auto;
+
 }
 
 #site-header-wrap {
@@ -35,21 +35,19 @@ header {
 
 /* Main content */
 .main-content {
-	width: 90%;
-	margin: auto;
+
 }
 
 .align-right {
-	float: right;
+
 }
 
 .content-clear {
-	clear: right;
+
 }
 
 .sub-content{
-	width: 100%;
-	margin: auto;
+
 }
 
 
