@@ -22,7 +22,6 @@ Notes on media queries (NAE):
 /* Header and navigation */
 
 header {
-	max-width: 70%;
 	margin: auto;
 }
 
