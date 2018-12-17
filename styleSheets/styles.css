@@ -27,8 +27,7 @@ header {
 
 #site-header-wrap {
 	background-image: url(../images/mitaLogo/headerIMG.svg);
-	background-height: 800px;
-	backgroun-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
