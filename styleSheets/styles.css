@@ -22,7 +22,7 @@ Notes on media queries (NAE):
 /* Header and navigation */
 
 header {
-
+	padding-top: 10em;
 }
 
 #site-header-wrap {
