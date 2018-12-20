@@ -30,6 +30,11 @@ header {
 	padding-right: 0.5em;
 }
 
+.site-title {
+	text-transform: uppercase;
+	color: #041e41;
+}
+
 /* Main content */
 .main-content {
 
