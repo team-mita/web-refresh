@@ -50,7 +50,7 @@ header {
 
 }
 
-.article-header {
+.content-header {
 	text-transform: uppercase;
 	color: #041e41;
 	font-size: 0.875rem;
@@ -58,7 +58,7 @@ header {
 	letter-spacing: 0.14em;
 }
 
-.article-subheader {
+.content-subheader {
 	color: #666;
 	font-size: 1.25rem;
 	font-weight: 300;
