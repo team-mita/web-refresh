@@ -50,16 +50,12 @@ header {
 
 }
 
-.align-right {
-
-}
-
-.content-clear {
-
-}
-
-.sub-content{
-
+.article-header {
+	text-transform: uppercase;
+	color: #041e41;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing: 0.14em;
 }
 
 
