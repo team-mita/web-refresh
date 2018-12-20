@@ -18,6 +18,9 @@ Notes on media queries (NAE):
 		https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 */
 
+body {
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
 
 /* Header and navigation */
 
@@ -36,7 +39,7 @@ header {
 }
 
 .site-title a {
-	color: #041e41;	
+	color: #041e41;
 }
 
 /* Main content */
