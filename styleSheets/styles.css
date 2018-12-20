@@ -32,7 +32,11 @@ header {
 
 .site-title {
 	text-transform: uppercase;
-	color: #041e41;
+
+}
+
+.site-title a {
+	color: #041e41;	
 }
 
 /* Main content */
