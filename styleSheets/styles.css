@@ -26,7 +26,7 @@ header {
 }
 
 #site-header-wrap {
-	
+
 }
 
 /* Main content */
@@ -47,58 +47,8 @@ header {
 }
 
 
-/* Jeanne Styles footer */
-.footer{
-	padding: 3em;
+/* footer styles */
 
-}
-#findus, #contactus{
-	display: inline-block;
-	vertical-align: top;
-	width:40%;
-	margin: auto;
-	padding-left: 2em;
-}
-.social-links-menu{
-	list-style-type: none;
-}
-.social-link{
-	display: inline-block;
-	vertical-align: bottom;
-	width: 5em;
-	padding-left: 1em;
-}
-.social, .copyright{
-	display: inline-block;
-	vertical-align: middle;
-	padding-bottom: 3em;
-}
-
-/* Zeph Styles footer */
-
-.siteFooter {
-	padding: 3em;
-}
-.footerContentWrap {
-	max-width: 50%;
-	margin: auto;
-}
-
-#findUs, #contactUs {
-	width: 40%;
-	display: inline-block;
-	margin: auto;
-	padding: 2em;
-
-}
-
-#contactUs {
-	float: right;
-}
-
-.copyright {
-	float: right;
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
