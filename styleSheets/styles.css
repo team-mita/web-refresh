@@ -25,8 +25,9 @@ header {
 	padding-top: 20em;
 }
 
-#site-header-wrap {
-
+.heading-container {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 /* Main content */
