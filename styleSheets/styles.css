@@ -58,6 +58,12 @@ header {
 	letter-spacing: 0.14em;
 }
 
+.article-subheader {
+	color: #666;
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
 
 /* footer styles */
 
