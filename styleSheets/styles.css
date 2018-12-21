@@ -45,6 +45,11 @@ header {
 	color: #041e41;
 }
 
+.navbar-toggler {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Main content */
 .main-content {
 
