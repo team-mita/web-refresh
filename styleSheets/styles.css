@@ -71,7 +71,9 @@ header {
 
 
 /* footer styles */
-
+.site-footer {
+	border-top: 2px;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
