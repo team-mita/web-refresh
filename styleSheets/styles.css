@@ -72,7 +72,7 @@ header {
 
 /* footer styles */
 .site-footer {
-	border-top: 2px;
+	border-top: 2px solid black;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
