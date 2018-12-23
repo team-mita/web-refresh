@@ -73,6 +73,7 @@ header {
 .site-footer {
 	border-top: 2px solid black;
 	text-align: center;
+	margin-top: 1em;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
