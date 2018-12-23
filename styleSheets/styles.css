@@ -68,6 +68,10 @@ header {
 	font-weight: 300;
 }
 
+.sub-content {
+	border-top: 1px solid #666;
+}
+
 
 /* footer styles */
 .site-footer {
