@@ -29,7 +29,7 @@ header {
 }
 
 .heading-container {
-	
+
 }
 
 .site-title {
@@ -72,6 +72,7 @@ header {
 /* footer styles */
 .site-footer {
 	border-top: 2px solid black;
+	text-align: center;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
