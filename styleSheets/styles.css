@@ -28,8 +28,8 @@ header {
 	padding-top: 20em;
 }
 
-.heading-container {
-
+.site-header-wrap {
+	background-image: url(../images/mitaLogo/headerIMG.svg);
 }
 
 .site-title {
