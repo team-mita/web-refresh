@@ -30,6 +30,7 @@ header {
 
 .site-header-wrap {
 	background-image: url(../images/mitaLogo/headerIMG.svg);
+	background-repeat: no-repeat;
 }
 
 .site-title {
