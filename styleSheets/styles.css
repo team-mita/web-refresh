@@ -32,7 +32,7 @@ header {
 	background-image: url(../images/mitaLogo/headerIMG.svg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: contain;
+	background-size: 100%;
 }
 
 .site-title {
