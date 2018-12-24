@@ -25,7 +25,7 @@ body {
 /* Header and navigation */
 
 header {
-	padding-top: 20em;
+	padding-top: 2em;
 }
 
 .parallax-banner {
@@ -33,7 +33,7 @@ header {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
-	min-height: 200px; 
+	min-height: 200px;
 }
 
 .site-title {
