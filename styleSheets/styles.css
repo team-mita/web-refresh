@@ -30,6 +30,7 @@ body {
 	background-attachment: fixed;
 	background-size: 80%;
 	background-position: center;
+	max-width: 768px;
 }
 
 
