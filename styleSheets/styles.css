@@ -32,7 +32,7 @@ body {
 }
 
 .parallax-container {
-	display: flex;
+	display: block;
 	flex: 1 0 auto;
 	position: fixed;
 	transform: translateZ(-1px) scale(2);
