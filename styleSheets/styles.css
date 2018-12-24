@@ -28,7 +28,7 @@ header {
 	padding-top: 20em;
 }
 
-.site-header-wrap {
+.parallax-banner {
 	background-image: url(../images/mitaLogo/headerIMG.svg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
