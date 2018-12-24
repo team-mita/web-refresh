@@ -26,7 +26,9 @@ body {
 .main-container {
 	perspective: 1px;
 	transform-style: preserve-3d;
-
+	height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .parallax-container {
@@ -35,11 +37,13 @@ body {
 	position: relative;
 	transform: translateZ(-1px) scale(2);
 	z-index: -1;
+	height: 100vh;
 }
 
 .content-container {
 	position: relative;
 	z-index: 1;
+	display: block;
 }
 
 /* Header and navigation */
