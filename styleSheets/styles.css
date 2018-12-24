@@ -43,6 +43,10 @@ header {
 	padding-top: 0;
 }
 
+.site-header-wrap {
+	padding-top: 0;
+}
+
 .parallax-banner {
 	background-image: url(../images/mitaLogo/headerIMG.svg);
 	background-repeat: no-repeat;
