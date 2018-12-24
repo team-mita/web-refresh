@@ -104,6 +104,10 @@ header {
 	padding-top: 1em;
 }
 
+.social {
+	list-style: none;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
 
