@@ -108,6 +108,7 @@ header {
 	list-style: none;
 	display: flex;
 	justify-content: center;
+	padding-left: 0;
 }
 
 
