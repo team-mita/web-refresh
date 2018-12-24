@@ -22,6 +22,26 @@ body {
 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+/* Parralax Banner styles */
+.main-container {
+	perspective: 1px;
+	transform-style: preserve-3d;
+
+}
+
+.parallax-container {
+	display: flex;
+	flex: 1 0 auto;
+	position: relative;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+}
+
+.content-container {
+	position: relative;
+	z-index: 1;
+}
+
 /* Header and navigation */
 
 header {
