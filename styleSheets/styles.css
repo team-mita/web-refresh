@@ -104,9 +104,11 @@ header {
 	padding-top: 1em;
 }
 
-footer ul {
+.social-links-menu {
 	list-style: none;
 }
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
