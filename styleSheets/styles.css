@@ -24,7 +24,7 @@ body {
 
 /* Parralax Banner styles */
 .parallax-container {
-	background-image: url(../images/mitaLogo/headerIMG.svg);
+	background-image: url(../images/mitaLogo/headerMitaLogo.png);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
