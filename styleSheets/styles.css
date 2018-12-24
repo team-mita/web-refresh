@@ -35,7 +35,7 @@ body {
 	display: flex;
 	flex: 1 0 auto;
 	position: relative;
-	transform: translateZ(-1px) scale(2);
+	transform: translateZ(-5px) scale(6);
 	z-index: -1;
 	height: 100vh;
 }
