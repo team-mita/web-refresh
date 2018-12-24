@@ -34,8 +34,8 @@ body {
 .parallax-container {
 	display: flex;
 	flex: 1 0 auto;
-	position: relative;
-	transform: translateZ(-5px) scale(6);
+	position: fixed;
+	transform: translateZ(-1px) scale(2);
 	z-index: -1;
 	height: 100vh;
 }
