@@ -29,7 +29,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 80%;
-	background-position: center;
+	background-position-x: center;
 	margin-left: auto;
 	margin-right: auto;
 }
