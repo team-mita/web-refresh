@@ -9,6 +9,9 @@
 
 
 	<link rel="stylesheet" type="text/css" href="../stylesheets/styles.css">
+  <!-- Bootstrap 4 CSS Link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
 </head>
 
@@ -17,16 +20,63 @@
   <div id="wrapper">
 
   <header>
-  </header>
+            <!--<img src="../images/mitaLogo/headerMitaLogo.svg" alt="Madison Information Technology Association">-->
+            <div class="heading_container">
+            <h1><a href="http://mita.madisoncollege.edu/" rel="home">Madison Information Technology Association</a></h1>
+            </div>
+            <p class="site-description">Prepare | Connect | Achieve</p>
 
-  <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Join</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Benefits</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Officers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Current Officers</a>
+                      <a class="dropdown-item" href="#">Officer Descriptions</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">App Dev Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">WolfPack Techies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </header>
+
+  <section class="main-content">
 
     <h2>Join</h2>
 
     <h1>Are you a IT student looking for networking opportunities?</h1>
 
     <article>
-
+      <a href="http://mita.madisoncollege.edu/officers/officer-descriptions/ "><img class="align-right" src="../images/MITAStarburst-1-1024x768.png" alt="mita startburst logo"
+								width="300 " height="225 " srcset="../images/MITAStarburst-1-300x225.png 300w, ../images/MITAStarburst-1-768x568.png 768w,
+								../images/MITAStarburst-1-1024x768.png 1024w " sizes="(max-width: 300px) 100vw, 300px " /></a>
       <h2><a href="">SIGN UP HERE!</a></h2>
 
       <p>
@@ -44,17 +94,75 @@
       </p>
 
       <aside id="mitaRecruting">
-        <a href=""><img alt="MITA is recruting, learn more." src="../images/MITAStarburst-1-1024x768.png"></a>
+
       </aside>
 
     </article>
 
   </section>
 
-  <footer>
+      <footer class="siteFooter">
+
+	  <div class="footerContentWrap">
+				<section id="findUs" role="complimentary">
+
+						<h3 class="footerColumnTitle">Find Us</h3>
+
+							<p>
+								<strong>Madison Information Technology Association</strong>
+								<br>
+								"Health Education Building, Third Floor"
+								<br>
+								1705 Hoffman Street"
+								<br>
+								"Madison, WI 53704"
+							</p>
+
+						<img width="150 " height="150 " src="../images/mitaLogo/MITASquare-150x150.png " class="image wp-image-163 attachment-thumbnail size-thumbnail
+											" alt=" " style="max-width: 100%; height: auto; " srcset="../images/mitaLogo/MITASquare-150x150.png 150w, ../images/mitaLogo/MITASquare-300x300.png 300w, http://mita.madisoncollege.edu/wp-content/uploads/2017/11/MITASquare-768x768.png
+											768w, ../images/mitaLogo/MITASquare-1024x1024.png 1024w, ../images/mitaLogo/MITASquare-100x100.png 100w " sizes="100vw " />
+
+				</section>
+				<!-- div containing right footer column-->
+        <section id="contactUs" role="complimentary">
+
+						<h3 class="footerColumnTitle">Contact Us</h2>
+
+							<p>
+								<strong>Feedback, questions, and issues:</strong>
+								<br>
+								mita@madisoncollege.edu
+							</p>
+							<p>
+								<a href="http://itins4.madisoncollege.edu/IT/">IT at Madison College</a>
+							</p>
+								© 2017 Madison Information Technology Association
+							<p>
+				</section>
+			</aside>
+
+
+			<nav class="social" role="navigation" aria-label="Social Links Menu">
+
+					<ul id="menu-social-links-menu " class="social-links-menu">
+							<li class="social-link"><a href="https://www.facebook.com/Madison-Information-Technology-Association-MITA-262487187150077/ ">
+							<img src="../images/contactFacebook.png" alt="facebook logo"></a>
+							</li>
+							<li class="social-link"><a href="mailto:MITA@madisoncollege.edu ">
+							<img src="../images/contactEmail.png" alt="simple envelope logo"></a>
+							</li>
+					</ul>
+			</nav>
+			<div class="copyright">
+					<a href="https://wordpress.org/ ">Proudly powered by WordPress</a>
+			</div>
+
+	</div>
   </footer>
+  <!-- Bootstrap 4 JS links -->
 
-</div>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

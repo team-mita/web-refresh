@@ -1,74 +1,134 @@
 /*  External style sheet for MITA website
 
-    Author: Zeph Marcus
-    Date:   10/28/2018
+    Author:
+    Updated:  11/20/2018
+
+Notes on media queries (NAE):
+		I've added media queries to this stylesheet that lay out the
+		groundwork for Mobile-First design. All "base" styles (those not included in a media query)
+		should be geared toward mobile devices, with more specific styling for
+		larger devices "layering" on top of this using the media queries. This practice
+		continues to layer more specific/complex styles as the screen gets larger, with
+		the largest being the most specific.
+
+		Below is a good article describing mobile-first design:
+		https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00
+
+		And here is w3school's description of media breakpoints:
+		https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 */
 
-header {
-	background-image: url("../images/header/headerMitaLogo.png");
-	background-repeat: no-repeat;
-	background-size: 30%;
-	background-origin: content-box;
-	background-attachment: fixed;
-	background-position: 50% 2em;
-	padding: 4em;
-}
-
-nav.site-navigation ul {
-	list-style: none;
-	text-align: center;
-}
-
-nav.site-navigation li {
-	display: inline-block;
-	padding: 10px 12px;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 1.1em;
-}
-
-nav.site-navigation a {
-	text-decoration: none;
-}
-
-nav.site-navigation a:hover {
-	color: grey;
-}
-
-section.main-content {
-	margin-left: 35%;
-	margin-right: 35%;
-}
-
-footer {
+body {
 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
-	margin-left: 20%;
-	margin-right: 20%;
 }
 
-footer ul {
-	list-style-type: none;
+/* Parralax Banner styles */
+.parallax-container {
+	background-image: url(../images/mitaLogo/headerMitaLogo.png);
+	min-height: 60vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 80%;
+	background-position-x: center;
+	background-position-y: 33%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-footer ul li {
-	display: inline;
+
+/* Header and navigation */
+
+header {
+	margin-top: 0;
+	padding-top: 0;
 }
 
-div.footer_left_col {
-	margin-left: 15%;
-	margin-right: 15%;
+.site-header-wrap {
+	padding-top: 0;
 }
 
-div.footer_right_col {
-	margin-left: 15%;
-	margin-right: 15%;
+.parallax-banner {
+	background-image: url(../images/mitaLogo/headerIMG.svg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	min-height: 200px;
 }
 
-div.footer_navigation {
-	margin-right: 20%;
-	margin-left: 20%;
+.site-title {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 800;
+	line-height: 1.25;
+	letter-spacing: 0.08em;
 }
 
-div.contact_column {
-	float: right;
+.site-title a {
+	color: #041e41;
 }
 
+.navbar-toggler {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Main content */
+.main-content {
+	margin-top: 1em;
+}
+
+.content-header {
+	text-transform: uppercase;
+	color: #041e41;
+	font-size: 1.0rem;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+}
+
+.content-subheader {
+	color: #666;
+	font-size: 1.0rem;
+	font-weight: 300;
+}
+
+.sub-content {
+	border-bottom: 1px solid lightgrey;
+	margin-top: 0.8em;
+}
+
+
+/* footer styles */
+.site-footer {
+	border-top: 2px solid black;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.social-links-menu {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
