@@ -47,6 +47,9 @@ header {
 	padding-top: 0;
 }
 
+
+/* Unused Parallax Banner styles */
+/*
 .parallax-banner {
 	background-image: url(../images/mitaLogo/headerIMG.svg);
 	background-repeat: no-repeat;
@@ -54,6 +57,7 @@ header {
 	background-size: 100%;
 	min-height: 200px;
 }
+*/
 
 .site-title {
 	text-transform: uppercase;
