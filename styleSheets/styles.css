@@ -1,0 +1,140 @@
+/*  External style sheet for MITA website
+
+    Author:
+    Updated:  11/20/2018
+
+Notes on media queries (NAE):
+		I've added media queries to this stylesheet that lay out the
+		groundwork for Mobile-First design. All "base" styles (those not included in a media query)
+		should be geared toward mobile devices, with more specific styling for
+		larger devices "layering" on top of this using the media queries. This practice
+		continues to layer more specific/complex styles as the screen gets larger, with
+		the largest being the most specific.
+
+		Below is a good article describing mobile-first design:
+		https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00
+
+		And here is w3school's description of media breakpoints:
+		https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+*/
+
+body {
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/* Parralax Banner styles */
+.parallax-container {
+	background-image: url(../images/mitaLogo/headerMitaLogo.png);
+	min-height: 60vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 80%;
+	background-position-x: center;
+	background-position-y: 33%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Header and navigation */
+
+header {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.site-header-wrap {
+	padding-top: 0;
+}
+
+
+/* Unused Parallax Banner styles */
+/*
+.parallax-banner {
+	background-image: url(../images/mitaLogo/headerIMG.svg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	min-height: 200px;
+}
+*/
+
+.site-title {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 800;
+	line-height: 1.25;
+	letter-spacing: 0.08em;
+}
+
+.site-title a {
+	color: #041e41;
+}
+
+.navbar-toggler {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Main content */
+.main-content {
+	margin-top: 1em;
+}
+
+.content-header {
+	text-transform: uppercase;
+	color: #041e41;
+	font-size: 1.0rem;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+}
+
+.content-subheader {
+	color: #666;
+	font-size: 1.0rem;
+	font-weight: 300;
+}
+
+.sub-content {
+	border-bottom: 1px solid lightgrey;
+	margin-top: 0.8em;
+}
+
+
+/* footer styles */
+.site-footer {
+	border-top: 2px solid black;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.social-links-menu {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+}
+
+.article-centered-links {
+	text-align: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
