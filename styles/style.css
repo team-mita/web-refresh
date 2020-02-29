@@ -1,0 +1,105 @@
+/* * {
+  background-color: green;
+} */
+
+/* misc styles */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%
+}
+
+* {
+box-sizing: inherit;
+}
+
+/* body styles */
+body {
+  margin: 0;
+  /* background-color: lightblue; */
+}
+
+/* head styles */
+header {
+/*   border: collapse; */
+  position: static;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  background-color: #041e41;
+  color: #FFFFFF;
+  padding-bottom: 1em;
+}
+
+h1 {
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+h2 {
+  color: #041e41;
+  font-weight: bold;
+  font-family: "Verdana", "Geneva", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 2px solid #041e41;
+  padding-bottom: 1em;
+}
+
+h3 {
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 1em;
+}
+
+.color {
+  color: #041e41;
+}
+
+/* navigation styles */
+nav a {
+  padding-top: 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+/* main styles */
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* section styles */
+section {
+  border: 2px solid #041e41;
+  margin: 1em 1em;
+  border-radius: 1.5em;
+  background-color: #FFFFFF;
+}
+
+div {
+  margin: 0;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* footer styles */
+footer {
+  box-sizing: border-box;
+  background-color: #041e41;
+}
+
+/* link & navigation styles */
+footer a, footer p {
+  color: #FFFFFF;
+}
